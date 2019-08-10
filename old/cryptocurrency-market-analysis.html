@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style type="text/css">.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="assetsh/css"><style type="text/css">.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+<style>
+  .ag-fx-analytic_title {
+    line-height: 1.45;
+    padding: 0 0 15px;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: #1068ad;
+  }
+  .ag-fx-analytic_title-link {
+    display: inline-block;
+  }
+  .ag-fx-analytic_datetime {
+    font-weight: normal;
+    color: #7688a0;
+  }
+  .ag-fx-analytic_title {
+    padding: 0 0 15px;
+
+    font-size: 18px;
+  }
+  .ag-fx-analytic_title-link {
+    font-weight: bold;
+    color: #1068ad;
+  }
+  .ag-fx-analytic_desc {
+    line-height: 1.45;
+    padding: 0 0 15px;
+
+    font-size: 14px;
+    text-align: justify;
+  }
+  .ag-fx-analytic_item {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px dotted #e0e0de;
+  }
+  .ag-fx-analytic_item-last {
+    border-bottom: 0;
+  }
+
+  .ag-fx-analytic_text {
+    line-height: 1.45;
+  }
+
+  .ag-rules-block {
+    padding: 0 0 15px;
+  }
+  .ag-rules_info {
+    max-height: 100px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    -webkit-transition: max-height 800ms ease-in-out;
+    -moz-transition: max-height 800ms ease-in-out;
+    -ms-transition: max-height 800ms ease-in-out;
+    -o-transition: max-height 800ms ease-in-out;
+    transition: max-height 800ms ease-in-out;
+  }
+  .js-ag-rules_info {
+    max-height: 100000px;
+
+    -webkit-transition: max-height 1s ease-in-out;
+    -moz-transition: max-height 1s ease-in-out;
+    -ms-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out;
+  }
+  .js-ag-rules_info-more-bg:before {
+    content: "";
+
+    height: 70px;
+    width: 100%;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .ag-rules_more {
+    display: inline-block;
+    padding: 0 15px 0 0;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    color: #007ff2;
+
+    position: relative;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  .ag-locale-site-pk .ag-rules_more {
+    padding: 0 0 0 15px;
+  }
+  .ag-rules_more:hover {
+    text-decoration: underline;
+  }
+  .ag-rules_more:before {
+    content: "";
+
+    height: 6px;
+    width: 9px;
+    margin: -3px 0 0;
+    background: url(../uploads/analytics/more-arrow.png) no-repeat scroll 0 0;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .ag-locale-site-pk .ag-rules_more:before {
+    right: auto;
+    left: 0;
+  }
+  .js-ag-rules_less:before {
+    content: "";
+    background-position: -9px 0;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  #side-to-top {
+    display: none;
+    width: 45px;
+    height: 100%;
+    padding-top: 150px;
+
+    cursor: pointer;
+
+    z-index: 1118;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    transition: all 0.5s ease 0s;
+  }
+  .ag-locale-site-pk #side-to-top {
+    right: auto;
+    left: 0;
+  }
+
+  #side-to-top:hover {
+    background-color: #F1F1F1;
+  }
+
+  #side-to-top button {
+    display: inline-block;
+    height: 19px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 0 none;
+    background: url(../uploads/category-analytics-page/side-up-down.png) no-repeat scroll 50% 0;
+  }
+
+  #side-to-top button.stt-to-bottom {
+    display: none;
+    background-position: 50% -19px;
+  }
+
+  #side-to-top button.stt-to-bottom:disabled {
+    background-position: 50% -38px;
+  }
+
+  #side-to-top button:focus {
+    outline: medium none;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #side-to-top button {
+      z-index: 1120;
+      position: absolute;
+      bottom: 100px;
+    }
+    #side-to-top:hover {
+      background-color: rgba(241,241,241,.7);
+    }
+  }
+.ag-widget-analytics {
+    margin: 5px 0 30px;
+    padding: 3px;
+    background: url(../uploads/simple-snippets/analytics-form-subscribe/pattern-border.jpg) repeat scroll -10px 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ag-w-analytics_box {
+    padding: 22px 20px;
+    border: 3px solid #FFF;
+    background: url(../uploads/simple-snippets/analytics-form-subscribe/pattern-bg.jpg) repeat scroll 0 0 #F5F5F5;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ag-w-analytics_form-title {
+    padding: 0 0 20px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #323a45;
+  }
+  .ag-w-analytics_row {
+    min-height: 80px;
+  }
+  .ag-w-analytics_row__checkbox {
+    min-height: 10px;
+    padding: 7px 0;
+  }
+  .ag-w-analytics_label {
+    display: block;
+    padding: 0 0 5px;
+  }
+  .ag-w-analytics_asterisk {
+    font-size: 14px;
+    color: #ff4b4b;
+  }
+  .ag-w-analytics_input {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding: 0 10px !important;
+    border: 1px solid #d3d3d3;
+    background-color: #FFF;
+
+    color: #525c69;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .ag-w-analytics_input:active,
+  .ag-w-analytics_input:focus {
+    outline: none !important;
+  }
+  .ag-w-analytics_input::-moz-focus-inner {
+    border: 0 !important;
+  }
+
+  .ag-w-analytics_box-checkbox {
+    padding: 0 0 10px;
+
+    position: relative;
+  }
+  .ag-w-analytics_label-checkbox {
+    display: inline-block;
+    padding-left: 30px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    position: relative;
+  }
+  .ag-locale-site-pk .ag-w-analytics_label-checkbox {
+    padding-left: 0;
+    padding-right: 30px;
+  }
+  .ag-w-analytics_label-checkbox:before {
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #d3d3d3;
+    background-color: #FFF;
+
+    position: absolute;
+    top: -2px;
+    left: 0;
+  }
+  .ag-locale-site-pk .ag-w-analytics_label-checkbox:before {
+    left: auto;
+    right: 0;
+  }
+  .ag-w-analytics_checkbox:checked + .ag-w-analytics_label-checkbox:after {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+    margin: 4px 0 0 3px;
+    background: url(../uploads/simple-snippets/analytics-form-subscribe/check.png) no-repeat scroll 2px 2px;
+
+    position: absolute;
+    top: -2px;
+    left: 0;
+  }
+  .ag-locale-site-pk .ag-w-analytics_checkbox:checked + .ag-w-analytics_label-checkbox:after {
+    margin: 4px 3px 0 0;
+    
+    left: auto;
+    right: 0;
+  }
+  .ag-w-analytics_checkbox {
+    display: none;
+  }
+
+  .ag-w-analytics_indicates-required {
+    padding: 0 0 10px;
+  }
+
+  .ag-w-analytics_btn {
+    height: 50px;
+    width: 100%;
+    padding: 0 25px;
+    border: 0;
+
+    background: #2d58f9;
+    background: -moz-linear-gradient(left,  rgba(45,88,249,1) 0%, rgba(35,139,252,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(45,88,249,1) 0%,rgba(35,139,252,1) 100%);
+    background: linear-gradient(to right,  rgba(45,88,249,1) 0%,rgba(35,139,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d58f9', endColorstr='#238bfc',GradientType=1 );
+
+    cursor: pointer;
+
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial. sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFF;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+  }
+  .ag-w-analytics_btn:hover {
+    background: #466cf9;
+    background: -moz-linear-gradient(left,  rgba(70,108,249,1) 0%, rgba(60,152,252,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(70,108,249,1) 0%,rgba(60,152,252,1) 100%);
+    background: linear-gradient(to right,  rgba(70,108,249,1) 0%,rgba(60,152,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cf9', endColorstr='#3c98fc',GradientType=1 );
+  }
+
+  #mc_embed_signup input.mce_inline_error {
+    border: 1px solid #ff4b4b !important;
+  }
+  #mc_embed_signup div.mce_inline_error {
+    margin: 0 !important;
+    padding: 4px 0 0 !important;
+    background: transparent !important;
+
+    font-weight: normal !important;
+    font-size: 11px !important;
+    color: #ff4b4b !important;
+  }
+  .ag-w-analytics_success-response {
+    display: none;
+    padding: 0 0 10px;
+
+    color: #529214;
+  }
+  .ag-w-analytics_error-response {
+    display: none;
+    padding: 0 0 10px;
+
+    color: #ff4b4b;
+  }
+
+
+.js-ag-site-pop-up:before {
+    content: url(../uploads/popup/start-trading/start-trading.png);
+    display: none;
+  }
+  
+  .js-ag-modal_overlay__start-trading {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    -webkit-transition: opacity .4s, visibility .4s;
+    -moz-transition: opacity .4s, visibility .4s;
+    -ms-transition: opacity .4s, visibility .4s;
+    -o-transition: opacity .4s, visibility .4s;
+    transition: opacity .4s, visibility .4s;
+
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .js-ag-modal_overlay-open__start-trading {
+    display: block;
+
+    opacity: 1;
+
+    visibility: visible;
+
+    -webkit-transition: opacity .3s, visibility .3s;
+    -moz-transition: opacity .3s, visibility .3s;
+    -ms-transition: opacity .3s, visibility .3s;
+    -o-transition: opacity .3s, visibility .3s;
+    transition: opacity .3s, visibility .3s;
+  }
+  .ag-modal_popup__start-trading {
+    height: 540px;
+    width: 360px;
+    margin: -270px 0 0 -180px;
+    background-color: #F1F1F1;
+
+    z-index: 10001;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .ag-modal_icon__start-trading {
+    display: block;
+    height: 211px;
+    margin: 30px auto 20px;
+    background: url(../uploads/popup/start-trading/start-trading.png) no-repeat scroll 50% 0;
+  }
+  .ag-modal_title__start-trading {
+    padding: 0 15px 15px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #323a45;
+  }
+  .ag-modal_list__start-trading {
+    display: table;
+    margin: 0 auto;
+    padding: 0 15px 20px;
+  }
+  .ag-modal_item__start-trading {
+    padding: 0 0 5px 25px;
+
+    font-size: 20px;
+    color: #323a45;
+
+    position: relative;
+  }
+  .ag-modal_item__start-trading:before {
+    content: "";
+    display: block;
+    height: 13px;
+    width: 15px;
+    background: url(../uploads/popup/start-trading/check.svg) no-repeat scroll 50% 0;
+
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+  .ag-modal_wrap-btn__start-trading {
+    text-align: center;
+  }
+  .ag-modal_btn__start-trading {
+    display: table;
+    height: 50px;
+    line-height: 50px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 0;
+    background-color: #70bd0e;
+
+    cursor: pointer;
+
+    vertical-align: middle;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFF !important;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+  }
+  .ag-modal_btn__start-trading:hover {
+    background: #8dcd1f;
+
+    text-decoration: none !important;
+    color: #FFF !important;
+  }
+  .ag-modal_close-btn__start-trading {
+    display: block;
+    height: 20px;
+    width: 20px;
+
+    opacity: 1;
+    cursor: pointer;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+    position: absolute;
+    top: -25px;
+    right: -25px;
+  }
+  .ag-modal_close-btn__start-trading:after,
+  .ag-modal_close-btn__start-trading:before {
+    content: "";
+
+    height: 20px;
+    border-left: 3px solid #F1F1F1;
+
+    position: absolute;
+    top: 0;
+    left: 9px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+  }
+
+  .ag-modal_close-btn__start-trading:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .ag-modal_close-btn__start-trading:hover:before {
+    -moz-transform: rotate(-315deg);
+    -webkit-transform: rotate(-315deg);
+    -ms-transform: rotate(-315deg);
+    -o-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+  }
+
+  .ag-modal_close-btn__start-trading:hover:after {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+  }
+
+  .ag-animated__start-trading {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both
+  }
+
+  @-webkit-keyframes js-ag-3DRotateBottom__start-trading {
+    from {
+      -webkit-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -webkit-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @-moz-keyframes js-ag-3DRotateBottom__start-trading {
+    from {
+      -moz-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -moz-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @-o-keyframes js-ag-3DRotateBottom__start-trading {
+    from {
+      -o-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -o-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @keyframes js-ag-3DRotateBottom__start-trading {
+    from {
+      transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  .js-ag-3DRotateBottom__start-trading {
+    -webkit-animation-name: js-ag-3DRotateBottom__start-trading;
+    -moz-animation-name: js-ag-3DRotateBottom__start-trading;
+    -o-animation-name: js-ag-3DRotateBottom__start-trading;
+    animation-name: js-ag-3DRotateBottom__start-trading;
+
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -o-perspective: 1300px;
+    perspective: 1300px;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+
+  @-webkit-keyframes js-ag-bounceOutDown__start-trading {
+    20% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @-moz-keyframes js-ag-bounceOutDown__start-trading {
+    20% {
+      -moz-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -moz-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -moz-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @-o-keyframes js-ag-bounceOutDown__start-trading {
+    20% {
+      -o-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -o-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -o-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @keyframes js-ag-bounceOutDown__start-trading {
+    20% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      -moz-transform: translate3d(0, 10px, 0);
+      -o-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      -moz-transform: translate3d(0, -20px, 0);
+      -o-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      -moz-transform: translate3d(0, 2000px, 0);
+      -o-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  .js-ag-bounceOutDown__start-trading {
+    -webkit-animation-name: js-ag-bounceOutDown__start-trading;
+    -moz-animation-name: js-ag-bounceOutDown__start-trading;
+    -o-animation-name: js-ag-bounceOutDown__start-trading;
+    animation-name: js-ag-bounceOutDown__start-trading;
+  }
+
+  @media only screen and (max-width: 479px) {
+    .ag-modal_popup__start-trading {
+      width: 300px;
+      margin-left: -150px;
+    }
+    .ag-modal_title__start-trading {
+      font-size: 24px;
+    }
+    .ag-modal_close-btn__start-trading:after,
+    .ag-modal_close-btn__start-trading:before {
+      border-left: 3px solid #000;
+    }
+    .ag-modal_close-btn__start-trading {
+      right: 20px;
+      top: 20px;
+    }
+  }
+
+  @media only screen and (max-height: 600px) {
+    .ag-modal_popup__start-trading {
+      height: 85%;
+      margin: 30px auto;
+
+      overflow-y: auto;
+
+      position: relative;
+      top: auto;
+      left: auto;
+    }
+    .ag-modal_wrap-btn__start-trading {
+      padding: 0 0 30px;
+    }
+    .ag-modal_close-btn__start-trading:after,
+    .ag-modal_close-btn__start-trading:before {
+      border-left: 3px solid #000;
+    }
+    .ag-modal_close-btn__start-trading {
+      right: 20px;
+      top: 20px;
+    }
+  }
+  @media only screen and (max-height: 350px) {
+    .ag-modal_popup__start-trading {
+      height: 75%;
+    }
+  }
+.js-ag-site-pop-up:after {
+    content: url(../uploads/popup/for-pages-of-analytics/for-pages-of-analytics.png);
+    display: none;
+  }
+
+  .js-ag-modal_overlay__for-analytics {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    -webkit-transition: opacity .4s, visibility .4s;
+    -moz-transition: opacity .4s, visibility .4s;
+    -ms-transition: opacity .4s, visibility .4s;
+    -o-transition: opacity .4s, visibility .4s;
+    transition: opacity .4s, visibility .4s;
+
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .js-ag-modal_overlay-open__for-analytics {
+    display: block;
+
+    opacity: 1;
+
+    visibility: visible;
+
+    -webkit-transition: opacity .3s, visibility .3s;
+    -moz-transition: opacity .3s, visibility .3s;
+    -ms-transition: opacity .3s, visibility .3s;
+    -o-transition: opacity .3s, visibility .3s;
+    transition: opacity .3s, visibility .3s;
+  }
+  .ag-modal_popup__for-analytics {
+    height: 540px;
+    width: 360px;
+    margin: -270px 0 0 -180px;
+
+    z-index: 10001;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .ag-locale-site-ko .ag-modal_popup__for-analytics {
+    word-break: keep-all;
+  }
+  .ag-locale-site-pk .ag-modal_popup__for-analytics {
+    direction: rtl;
+  }
+  .ag-modal_title__for-analytics {
+    height: 184px;
+    background: url(../uploads/popup/for-pages-of-analytics/for-pages-of-analytics.png) no-repeat scroll 100% 0;
+    padding: 100px 110px 0 20px;
+
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ag-locale-site-pk .ag-modal_title__for-analytics {
+    padding: 100px 20px 0 110px;
+    background-image: url(../uploads/popup/for-pages-of-analytics/for-pages-of-analytics-rtl.png);
+    background-position: 0 0;
+  }
+  .ag-locale-site-cn .ag-modal_title__for-analytics,
+  .ag-locale-site-jp .ag-modal_title__for-analytics,
+  .ag-locale-site-ko .ag-modal_title__for-analytics,
+  .ag-locale-site-th .ag-modal_title__for-analytics {
+    line-height: 1.45;
+  }
+  .ag-locale-site-cn .ag-modal_title__for-analytics {
+    padding-top: 75px;
+  }
+  .ag-locale-site-es .ag-modal_title__for-analytics {
+    padding-top: 80px;
+  }
+  .ag-locale-site-fr .ag-modal_title__for-analytics {
+    padding-top: 75px;
+    padding-right: 140px;
+  }
+  .ag-locale-site-id .ag-modal_title__for-analytics {
+    padding-top: 62px;
+  }
+  .ag-locale-site-jp .ag-modal_title__for-analytics {
+    padding-top: 48px;
+
+    font-size: 22px;
+  }
+  .ag-locale-site-ko .ag-modal_title__for-analytics {
+    padding-top: 75px;
+  }
+  .ag-locale-site-ms .ag-modal_title__for-analytics {
+    padding-top: 50px;
+  }
+  .ag-locale-site-ru .ag-modal_title__for-analytics {
+    padding-top: 75px;
+  }
+  .ag-locale-site-th .ag-modal_title__for-analytics {
+    padding-top: 55px;
+  }
+  .ag-modal_title__br__for-analytics {
+    display: block;
+  }
+  .ag-modal_box__for-analytics {
+    padding: 25px 30px 40px;
+    background-color: #F1F1F1;
+  }
+  .ag-modal_title-box__for-analytics {
+    padding: 0 0 20px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: #323a45;
+  }
+  .ag-locale-site-cn .ag-modal_title-box__for-analytics,
+  .ag-locale-site-jp .ag-modal_title-box__for-analytics,
+  .ag-locale-site-ko .ag-modal_title-box__for-analytics,
+  .ag-locale-site-th .ag-modal_title-box__for-analytics {
+    line-height: 1.45;
+  }
+  .ag-modal_tagline-box__for-analytics {
+    line-height: 1.45;
+    padding: 0 0 30px;
+
+    font-size: 16px;
+    color: #525c69;
+  }
+  .ag-locale-site-cn .ag-modal_tagline-box__for-analytics,
+  .ag-locale-site-jp .ag-modal_tagline-box__for-analytics,
+  .ag-locale-site-ko .ag-modal_tagline-box__for-analytics,
+  .ag-locale-site-th .ag-modal_tagline-box__for-analytics {
+    line-height: 1.8;
+  }
+  .ag-modal_tagline-box__strong__for-analytics {
+    font-weight: bold;
+  }
+  .ag-modal_btn__for-analytics {
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    padding: 0 15px;
+
+    background: #60b10b;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYjEwYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZWM1MTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #60b10b 0%, #7ec516 100%);
+    background: -webkit-linear-gradient(left,  #60b10b 0%,#7ec516 100%);
+    background: linear-gradient(to right,  #60b10b 0%,#7ec516 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60b10b', endColorstr='#7ec516',GradientType=1 );
+
+    font-size: 21px;
+  }
+  .ag-modal_btn__for-analytics:hover {
+    background: #60c50b;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYzUwYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZWQ5MTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #60c50b 0%, #7ed916 100%);
+    background: -webkit-linear-gradient(left,  #60c50b 0%,#7ed916 100%);
+    background: linear-gradient(to right,  #60c50b 0%,#7ed916 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60c50b', endColorstr='#7ed916',GradientType=1 );
+  }
+
+  .ag-modal_close-btn__for-analytics {
+    display: block;
+    height: 22px;
+    width: 22px;
+
+    opacity: 1;
+
+    cursor: pointer;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+    position: absolute;
+    top: 5px;
+    right: -30px;
+  }
+  .ag-locale-site-pk .ag-modal_close-btn__for-analytics {
+    right: auto;
+    left: -30px;
+  }
+  .ag-modal_close-btn__for-analytics:before,
+  .ag-modal_close-btn__for-analytics:after {
+    content: "";
+
+    height: 20px;
+    border-left: 3px solid #F1F1F1;
+
+    position: absolute;
+    top: 1px;
+    left: 9px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+  }
+  .ag-locale-site-pk .ag-modal_close-btn__for-analytics:before,
+  .ag-locale-site-pk .ag-modal_close-btn__for-analytics:after {
+    left: auto;
+    right: 9px;
+  }
+  .ag-modal_close-btn__for-analytics:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .ag-modal_close-btn__for-analytics:hover:before {
+    -moz-transform: rotate(-315deg);
+    -webkit-transform: rotate(-315deg);
+    -ms-transform: rotate(-315deg);
+    -o-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+  }
+
+  .ag-modal_close-btn__for-analytics:hover:after {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+  }
+
+  .ag-animated__for-analytics {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both
+  }
+
+  @-webkit-keyframes js-ag-3DRotateBottom__for-analytics {
+    from {
+      -webkit-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -webkit-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @-moz-keyframes js-ag-3DRotateBottom__for-analytics {
+    from {
+      -moz-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -moz-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @-o-keyframes js-ag-3DRotateBottom__for-analytics {
+    from {
+      -o-transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      -o-transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  @keyframes js-ag-3DRotateBottom__for-analytics {
+    from {
+      transform: translateY(100%) rotateX(90deg);
+      opacity: 0
+    }
+    50% {
+      transform: translateY(0) rotateX(0);
+      opacity: 1
+    }
+  }
+  .js-ag-3DRotateBottom__for-analytics {
+    -webkit-animation-name: js-ag-3DRotateBottom__for-analytics;
+    -moz-animation-name: js-ag-3DRotateBottom__for-analytics;
+    -o-animation-name: js-ag-3DRotateBottom__for-analytics;
+    animation-name: js-ag-3DRotateBottom__for-analytics;
+
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -o-perspective: 1300px;
+    perspective: 1300px;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+
+  @-webkit-keyframes js-ag-bounceOutDown__for-analytics {
+    20% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @-moz-keyframes js-ag-bounceOutDown__for-analytics {
+    20% {
+      -moz-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -moz-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -moz-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @-o-keyframes js-ag-bounceOutDown__for-analytics {
+    20% {
+      -o-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -o-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -o-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  @keyframes js-ag-bounceOutDown__for-analytics {
+    20% {
+      -webkit-transform: translate3d(0, 10px, 0);
+      -moz-transform: translate3d(0, 10px, 0);
+      -o-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+    }
+    40%, 45% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, -20px, 0);
+      -moz-transform: translate3d(0, -20px, 0);
+      -o-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      -moz-transform: translate3d(0, 2000px, 0);
+      -o-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  }
+  .js-ag-bounceOutDown__for-analytics {
+    -webkit-animation-name: js-ag-bounceOutDown__for-analytics;
+    -moz-animation-name: js-ag-bounceOutDown__for-analytics;
+    -o-animation-name: js-ag-bounceOutDown__for-analytics;
+    animation-name: js-ag-bounceOutDown__for-analytics;
+  }
+
+  @media only screen and (max-width: 479px) {
+    .ag-modal_popup__for-analytics {
+      width: 300px;
+      margin-left: -150px;
+    }
+    .ag-modal_title__for-analytics {
+      display: block;
+      padding: 75px 140px 0 15px;
+      background-image: url(../uploads/popup/for-pages-of-analytics/for-pages-of-analytics-mobile.png);
+    }
+    .ag-locale-site-pk .ag-modal_title__for-analytics {
+      padding-top: 60px;
+      background-image: url(../uploads/popup/for-pages-of-analytics/for-pages-of-analytics-mobile-rtl.png);
+    }
+    .ag-locale-site-cn .ag-modal_title__for-analytics {
+      padding-top: 90px;
+    }
+    .ag-locale-site-en .ag-modal_title__for-analytics {
+      padding-right: 160px;
+    }
+    .ag-locale-site-es .ag-modal_title__for-analytics {
+      padding-top: 50px;
+    }
+    .ag-locale-site-vi .ag-modal_title__for-analytics {
+      padding-top: 65px;
+    }
+    .ag-modal_box__for-analytics {
+      padding: 25px 15px 40px;
+    }
+    .ag-modal_close-btn__for-analytics {
+      top: 0;
+      right: 0;
+    }
+    .ag-locale-site-pk .ag-modal_close-btn__for-analytics {
+      top: 0;
+      right: auto;
+      left: 0;
+    }
+  }
+
+  @media only screen and (max-height: 600px) {
+    .ag-modal_popup__for-analytics {
+      height: 85%;
+      margin: 30px auto;
+      background-color: #F1F1F1;
+
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      position: relative;
+      top: auto;
+      left: auto;
+    }
+    .ag-modal_title__for-analytics {
+      height: 150px;
+      padding-top: 70px;
+      background-position: 100% 100%;
+    }
+    .ag-locale-site-cn .ag-modal_title__for-analytics {
+      padding-top: 40px;
+    }
+    .ag-locale-site-es .ag-modal_title__for-analytics {
+      padding-top: 50px;
+    }
+    .ag-locale-site-fr .ag-modal_title__for-analytics {
+      padding-top: 45px;
+    }
+    .ag-locale-site-id .ag-modal_title__for-analytics {
+      padding-top: 30px;
+    }
+    .ag-locale-site-jp .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-ko .ag-modal_title__for-analytics {
+      padding-top: 40px;
+    }
+    .ag-locale-site-ms .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-pk .ag-modal_title__for-analytics {
+      padding-top: 60px;
+      background-position: 0 100%;
+    }
+    .ag-locale-site-pt .ag-modal_title__for-analytics {
+      padding-top: 65px;
+    }
+    .ag-locale-site-ru .ag-modal_title__for-analytics {
+      padding-top: 65px;
+    }
+    .ag-locale-site-th .ag-modal_title__for-analytics {
+      padding-top: 20px;
+    }
+
+    .ag-modal_close-btn__for-analytics {
+      background-color: #0B6CCA;
+
+      top: 5px;
+      right: 5px;
+    }
+    .ag-locale-site-pk .ag-modal_close-btn__for-analytics {
+      right: auto;
+      left: 5px;
+    }
+  }
+
+  @media only screen and (max-height: 350px) {
+    .ag-modal_popup__for-analytics {
+      height: 75%;
+    }
+  }
+
+  @media screen and (max-width: 479px) and (max-height: 600px) {
+    .ag-modal_title__for-analytics {
+      padding: 50px 140px 0 15px;
+    }
+    .ag-locale-site-cn .ag-modal_title__for-analytics {
+      padding-top: 65px;
+    }
+    .ag-locale-site-en .ag-modal_title__for-analytics {
+      padding-right: 160px;
+    }
+    .ag-locale-site-es .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-fr .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-id .ag-modal_title__for-analytics {
+      padding-top: 30px;
+    }
+    .ag-locale-site-jp .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-ko .ag-modal_title__for-analytics {
+      padding-top: 40px;
+    }
+    .ag-locale-site-ms .ag-modal_title__for-analytics {
+      padding-top: 15px;
+    }
+    .ag-locale-site-pk .ag-modal_title__for-analytics {
+      padding-top: 30px;
+    }
+    .ag-locale-site-pt .ag-modal_title__for-analytics {
+      padding-top: 25px;
+    }
+    .ag-locale-site-ru .ag-modal_title__for-analytics {
+      padding-top: 40px;
+    }
+    .ag-locale-site-th .ag-modal_title__for-analytics {
+      padding-top: 20px;
+    }
+    .ag-locale-site-vi .ag-modal_title__for-analytics {
+      padding-top: 30px;
+    }
+
+    .ag-modal_close-btn__for-analytics {
+      background-color: #0B6CCA;
+    }
+    .ag-locale-site-pk .ag-modal_close-btn__for-analytics {
+      top: 5px;
+    }
+  }
+</style>
+    
+    <!-- viewport meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Avivon - Business Consulting &amp; Finance HTML5 Template">
+    <meta name="keywords" content=" advisor, business, consultant, consulting, corporate,  finance, financial, law firm, institutions, organizations , html5">
+    <title>Alpha Exchange World</title>
+
+
+
+    <!-- revolution slider css -->
+    <link rel="stylesheet" type="text/css" href="assetsh/settings.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/layers.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/navigation.css">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" type="text/css" href="assetsh/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/fontello.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/magnificpopup.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/style.css">
+    <!-- endinject -->
+<script type="text/javascript" charset="UTF-8" src="assetsh/common.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/util.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/map.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="assetsh/onion.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/stats.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/controls.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/marker.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/3eda1462582fcc53eefc9f2d43830b29/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-16x16.png">
+  <link rel="manifest" href="/3eda1462582fcc53eefc9f2d43830b29/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    
+    </head>
+<body>
+<!-- page preloader -->
+<div id="loading-area" style="display: none;">
+    <div class="three col">
+        <div class="loader" id="loader-1"></div>
+    </div>
+</div><!-- end loading -->
+
+
+<div class="body-overlay"></div><!-- end body-overlay -->
+<div class="offcanvas-menu">
+    <div class="menu__close"></div><!-- end menu__close -->
+    <ul class="off__menu">
+        <li class="menu__title-only">home <i class="fas fa-angle-down"></i></li>
+        <li><a href="/index.html">home 01</a></li>
+        <li><a href="/index2.html">home 02</a></li>
+        <li><a href="/index3.html">home 03</a></li>
+        <li class="menu__title-only">services <i class="fas fa-angle-down"></i></li>
+        <li><a href="/service1.html">services 01</a></li>
+        <li><a href="/service2.html">services 02</a></li>
+        <li><a href="/single-service.html">single service</a></li>
+        <li class="menu__title-only">pages <i class="fas fa-angle-down"></i></li>
+        <li><a href="/about-us1.html">about us 01</a></li>
+        <li><a href="/about-us2.html">about us 02</a></li>
+        <li><a href="/our-mission.html">our mission</a></li>
+        <li><a href="/our-history.html">our history</a></li>
+        <li><a href="/our-partnership.html">partnership</a></li>
+        <li><a href="/error-page-404.html">error 404 page</a></li>
+        <li class="menu__title-only">cases <i class="fas fa-angle-down"></i></li>
+        <li><a href="/cases1.html">cases 01</a></li>
+        <li><a href="/cases2.html">cases 02</a></li>
+        <li><a href="/single-cases.html">single case</a></li>
+        <li class="menu__title-only">blog <i class="fas fa-angle-down"></i></li>
+        <li><a href="/blog-post.html">blog post</a></li>
+        <li><a href="/single-blog.html">single blog</a></li>
+        <li class="menu__title-only">contact <i class="fas fa-angle-down"></i></li>
+        <li><a href="/contact.html">contact us</a></li>
+    </ul>
+</div><!-- end offcanvas-menu -->
+
+<!-- ================================
+        START MENU AREA
+================================= -->
+<section class="menu-area">
+    <div class="top-menu-area" style="background-color: black; opacity: 0.8 !important;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menu-full-width">
+                        <div class="logo-box">
+                            <div class="site-open">
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                            </div><!-- end site-open -->
+                            <div class="logo">
+                                <a href="/index.html" title="Avivon" style="color: white; font-weight: bold;font-size: 23px;"><img src="assetsh/logoalpha.png" width="80" alt="logo"><span>Alpha Exchange World</span></a>
+                            </div><!-- end logo -->
+                        </div><!-- end logo-box -->
+                        <div class="main-menu">
+                            <nav class="menu__wrapper">
+                                <ul class="dropdown-main">
+                                    <li>
+                                        <a href="">Analytics</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="analytics.html">home 01</a></li>
+                                                <li><a href="market-news.html">home 02</a></li>
+                                                <li><a href="cryptocurrency-market-analysis.html">home 03</a></li>
+                                                <li><a href="economic-calendar.html">home 04</a></li>
+                                                <li><a href=" ">home 05</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">services</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="">services 01</a></li>
+                                                <li><a href="">services 02</a></li>
+                                                <li><a href="">single service</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">pages</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/about-us1.html">about us 01</a></li>
+                                                <li><a href="/about-us2.html">about us 02</a></li>
+                                                <li><a href="/our-mission.html">our mission</a></li>
+                                                <li><a href="/our-history.html">our history</a></li>
+                                                <li><a href="/our-partnership.html">partnership</a></li>
+                                                <li><a href="/error-page-404.html">error 404 page</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">cases</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/cases1.html">cases 01</a></li>
+                                                <li><a href="/cases2.html">cases 02</a></li>
+                                                <li><a href="/single-cases.html">single case</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">blog</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/blog-post.html">blog post</a></li>
+                                                <li><a href="/single-blog.html">single blog</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/contact.html">contact</a>
+                                    </li>
+                                </ul>
+                            </nav><!-- end menu__wrapper -->
+                            <div class="logo-right-button">
+                                <div class="contact-para">
+                                    <p>+ 888 999 0000</p>
+                                    <span class="fontello icon-phone-call phone-call"></span>
+                                </div><!-- end contact-para -->
+                            </div><!-- end logo-right-button -->
+                        </div><!-- end main-menu -->
+                    </div><!-- end menu-full-width -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end top-menu-area -->
+</section><!-- end menu-area -->
+
+
+<div class="ag-base_page ag-m-format-container clearfix container" style="padding-bottom: 50px; padding-top: 150px;">
+        <div class="ag-layout_wrap-col">
+          <div class="ag-layout_col__center">
+            <h1 class="ag-base_title-page">Cryptocurrency Analysis
+</h1>
+            <div class="ag-site_direction__RTL">
+              <div class="static-page">
+  <div class="ag-fx-analytics-page cryptocurrency-market-analysis-page fx-only_content">
+  <section class="ag-fx-analytic_block">
+  
+        <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2019-03-13.html" class="ag-fx-analytic_title-link">
+          The "Digital Gold" Prices Are Stable. The Technical Pattern Is Ambiguous
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2019.03.13</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+       The BTC/USD quotes are in a sideways trend. Financial market participants expect additional drivers. The potential for recovery remains.
+      </div>
+      <a href="cryptocurrency-market-analysis-2019-03-13.html">Read more</a>
+    </article>
+    
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2019-02-27.html" class="ag-fx-analytic_title-link">
+          Bitcoin Moved Away from Monthly Highs. The Technical Pattern Is Ambiguous
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2019.02.27</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The "digital gold" rate became stable. The technical pattern is ambiguous. Investors expect additional drivers.
+      </div>
+      <a href="cryptocurrency-market-analysis-2019-02-27.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2019-02-14.html" class="ag-fx-analytic_title-link">
+          The BTC/USD Quotes Are Consolidating. The Potential for Recovery Remains
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2019.02.14</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The "digital gold" prices are consolidating. The potential for recovery remains.
+      </div>
+      <a href="cryptocurrency-market-analysis-2019-02-14.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2019-02-06.html" class="ag-fx-analytic_title-link">
+          The Bitcoin Rate Is Stable. The Technical Pattern Is Ambiguous
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2019.02.06</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The BTC/USD rate is stable. Financial market participants expect additional drivers. Positions should be opened
+        from the key levels.
+      </div>
+      <a href="cryptocurrency-market-analysis-2019-02-06.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2019-01-08.html" class="ag-fx-analytic_title-link">
+          The "Digital Gold" Prices Have Been Growing
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2019.01.08</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        Bitcoin is tending to recover. Quotes are testing local resistance of 4100.00.
+      </div>
+      <a href="cryptocurrency-market-analysis-2019-01-08.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-12-19.html" class="ag-fx-analytic_title-link">
+          Bitcoin Has Started to Recover
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.12.19</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The BTC/USD quotes have been growing. The price is testing the round level of 4000.0.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-12-19.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-12-07.html" class="ag-fx-analytic_title-link">
+          BTC/USD Quotes Updated the Annual Minimums
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.12.07</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        Bitcoin is testing the annual minimums. There is a downward potential. You should open positions from the key
+        levels.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-12-07.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-11-23.html" class="ag-fx-analytic_title-link">
+          The Bitcoin Rate Has Set New Annual Lows
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.11.23</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        There are aggressive sales in the "digital currency" market. The BTC/USD quotes are testing annual lows.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-11-23.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-11-07.html" class="ag-fx-analytic_title-link">
+          The BTC/USD Quotes Show Positive Dynamics. The Potential for Growth Remains
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.11.07</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The Bitcoin rate has been growing. The price is testing a key resistance level of 6550.00.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-11-07.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-10-24.html" class="ag-fx-analytic_title-link">
+          The "Digital Gold" Prices Are Stable. The Technical Pattern Is Ambiguous
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.10.24</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The BTC/USD rate is stable. Investors expect additional drivers. Cryptocurrency has the potential for further
+        growth.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-10-24.html">Read more</a>
+    </article>
+
+    <article class="ag-fx-analytic_item">
+      <div class="ag-fx-analytic_title">
+        <a href="cryptocurrency-market-analysis-2018-10-10.html" class="ag-fx-analytic_title-link">
+          The Bitcoin Rate Is Stable. The Technical Pattern Is Ambiguous
+        </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.10.10</span>
+      </div>
+      <div class="ag-fx-analytic_desc">
+        The technical pattern on BTC/USD is still ambiguous. We recommend opening positions from the key levels.
+      </div>
+      <a href="cryptocurrency-market-analysis-2018-10-10.html">Read more</a>
+    </article>
+
+    <div class="js-rules-block ag-rules-block">
+      <div class="js-rules_info js-ag-rules_info-more-bg ag-rules_info">
+        <article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-09-26.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Consolidating. The Potential for Recovery Remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.09.26</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Digital gold is in a sideways trend. The potential for growth remains.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-09-26.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-09-19.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Is Stable. Investors Expect Additional Drivers
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.09.19</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are consolidating. We recommend opening positions from the key support and resistance levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-09-19.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-09-12.html" class="ag-fx-analytic_title-link">
+      Digital Gold Is Consolidating. The Technical Correction Is not Ruled out in the Near Future
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.09.12</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are in a sideways trend. In the near future, a technical correction is not ruled out.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-09-12.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-09-05.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Is Declining
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.09.05</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The main cryptocurrencies show negative dynamics. In the near future, the further drop in the BTC/USD quotes is
+    not excluded.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-09-05.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-08-22.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Has Begun to Recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.08.22</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Digital currencies show positive dynamics. The potential for growth is still high.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-08-22.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-08-15.html" class="ag-fx-analytic_title-link">
+      The "Digital Gold" Prices Are Consolidating. The Technical Pattern Is Ambiguous
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.08.15</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are in a sideways trend. We recommend opening positions from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-08-15.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-08-08.html" class="ag-fx-analytic_title-link">
+      Ethereum Classic Has Reached the 61.8%-78.6% Correction Zone
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.08.08</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The ETC/USD quotes have reached the key correctional zone. Positions should be opened from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-08-08.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-08-02.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Consolidating. The Potential for Growth Remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.08.02</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Digital gold moved away from local highs. The potential for growth remains.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-08-02.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-07-18.html" class="ag-fx-analytic_title-link">
+      The "Digital Gold" Prices Have Been Rising
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.07.18</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Digital currencies show positive dynamics. The potential for growth is still high.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-07-18.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-07-11.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Consolidating. The Technical Pattern Is Ambiguous
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.07.11</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are in a sideways trend. We recommend opening positions from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-07-11.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-07-05.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Have Been Recovering. The Potential for Growth Remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.07.05</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin shows positive dynamics. The BTC/USD quotes have the potential for further growth.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-07-05.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-06-27.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Is Consolidating. The Potential for Growth Remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.06.27</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    "Digital gold" is in a sideways trend. The technical pattern is ambiguous. Positions should be opened from the
+    key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-06-27.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-06-20.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Tending Potentially to Correct
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.06.20</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin has recovered some of the losses. At the moment, the BTC/USD quotes are consolidating. The potential for
+    growth remains.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-06-20.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-06-14.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Tending Potentially to Recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.06.14</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are consolidating. We expect a technical correction.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-06-14.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-06-06.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Consolidating. Investors Expect Additional Drivers
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.06.06</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are in a sideways trend. We recommend opening positions from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-06-06.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-05-31.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Is Recovering
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.05.31</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Demand for the cryptocurrency is high again. We expect a further correction of BTC/USD.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-05-31.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-05-23.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Testing Monthly Lows
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.05.23</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The Bitcoin rate continues to show negative dynamics. The BTC/USD quotes reached the key support level of
+    7800.00.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-05-23.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-05-17.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Continues to Decline
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.05.17</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are consolidating. The trading instrument has the potential for further correction.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-05-17.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-05-09.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Consolidating. The Technical Pattern Is Ambiguous
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.05.09</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are consolidating. The potential for growth remains. We recommend opening positions from the
+    key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-05-09.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-05-03.html" class="ag-fx-analytic_title-link">
+      The Ethereum Rate Shows Steady Growth
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.05.03</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The ETH/USD rate has the potential for further growth. The price is testing the local resistance of 730.00.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-05-03.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-04-24.html" class="ag-fx-analytic_title-link">
+      The Bitcoin Rate Continues to Recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.04.24</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are testing a mark of $9,400. The potential for growth remains.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-04-24.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-04-17.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Consolidating. The Potential for Growth Remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.04.17</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD rate is stable. Investors expect additional drivers. Cryptocurrency is tending potentially to
+    further growth.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-04-17.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-04-12.html" class="ag-fx-analytic_title-link">
+      Demand for Cryptocurrency Has Resumed
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.04.12</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are tending potentially to grow. The key resistance is the level of 7800.00.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-04-12.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-04-03.html" class="ag-fx-analytic_title-link">
+      Bitcoin Overcame the "Death Cross" and Began the Week with Recovery
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.04.03</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    After a sharp drop last week, bitcoin began to recover. At the moment the price is being consolidated. The
+    further growth of quotes is expected.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-04-03.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-03-27.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Testing the $8,000 Mark. The Technical Pattern Is Ambiguous
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.03.27</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are consolidating. The trading instrument is tending potentially to reduce.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-03-27.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-03-21.html" class="ag-fx-analytic_title-link">
+      We Expect a Technical Correction of ETH/USD
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.03.21</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The demand for cryptocurrency increased. In the near future, the growth of the ETH/USD quotes is not
+    excluded.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-03-21.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-03-13.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Consolidating After a Sharp Drop Last Week
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.03.13</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are in a sideways trend. Positions need to be opened from the key support and resistance
+    levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-03-13.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-27.html" class="ag-fx-analytic_title-link">
+      Bitcoin Has Overcome the Psychologically Important Level of $10,500
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.27</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes have the potential for further recovery. The price is testing the key resistance of
+    10700.00.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-27.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-23.html" class="ag-fx-analytic_title-link">
+      Bitcoin Stopped to Recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.23</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes moved away from the local highs. Positions need to be opened from the key support and
+    resistance levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-23.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-19.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Continue to Recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.19</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Demand for digital currencies resumes. The BTC/USD quotes have reached $11,000.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-19.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-16.html" class="ag-fx-analytic_title-link">
+      Bitcoin Reached its High in February
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.16</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Demand for major cryptocurrency has resumed. The BTC/USD quotes have reached $10,000.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-16.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-13.html" class="ag-fx-analytic_title-link">
+      The situation with cryptocurrencies is stabilizing. Bitcoin has begun to recover gradually
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.13</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin is recovering after reaching the 4-month low last week. As a result of positive statements by the US
+    regulators, the situation with the cryptocurrencies has improved, but remains unstable.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-13.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-09.html" class="ag-fx-analytic_title-link">
+      Bitcoin is tending to recover
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.09</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Demand for the cryptocurrency is resumed. The further growth of the BTC/USD quotes is not excluded.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-09.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-02-06.html" class="ag-fx-analytic_title-link">
+      The BTC/USD quotes continue to show negative dynamics.
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.02.06</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Since the beginning of this month, the cryptocurrency has decreased by more than 35%. On Friday, the main
+    digital currencies fell in price, as a result their capitalization fell by more than $100 billion.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-02-06.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-01-31.html" class="ag-fx-analytic_title-link">
+      Bitcoin is under pressure. The BTC/USD quotes are testing $10,000
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.01.31</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Since the beginning of this week, the main cryptocurrencies have shown a negative dynamics after the hacker
+    attack on the main cryptocurrency exchange Coincheck in Tokyo.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-01-31.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-01-26.html" class="ag-fx-analytic_title-link">
+      Ethereum is consolidating. Uncertainty persists
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.01.26</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The technical pattern on ETH/USD is ambiguous. Positions need to be opened from the key levels of support
+    and
+    resistance.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-01-26.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-01-23.html" class="ag-fx-analytic_title-link">
+      Correction in the market of cryptocurrency continues. A trading idea for LTC/USD
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.01.23</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Leading cryptocurrencies remain under pressure. The LTC/USD quotations are testing the demand zone of
+    140.00-160.00.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-01-23.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-01-19.html" class="ag-fx-analytic_title-link">
+      BTC/USD is testing the 50.0-61.8% correction zone
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.01.19</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin remains under pressure. The BTC/USD quotes are consolidating. Positions must be opened from the key
+    levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-01-19.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2018-01-15.html" class="ag-fx-analytic_title-link">
+      The ETH/USD Quotes Are in a Sideways Trend. We Are Waiting for a Technical Correction
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2018.01.15</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Ethereum is consolidating. In the near future, the correction of ETH/USD is not excluded.
+  </div>
+  <a href="cryptocurrency-market-analysis-2018-01-15.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-12-26.html" class="ag-fx-analytic_title-link">
+      The BTC/USD Quotes Are Consolidating
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.12.26</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The rate of BTC/USD has stabilized. Positions must be opened from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-12-26.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-12-18.html" class="ag-fx-analytic_title-link">
+      Ascending triangle on LTC/USD
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.12.18</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Litecoin is testing historical highs. Demand for the cryptocurrency continues to grow.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-12-18.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-12-11.html" class="ag-fx-analytic_title-link">
+      Ethereum Is Consolidating. The Growth Is going to Prevail in Further
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.12.11</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The ETH/USD quotes are testing the key levels. Demand is still high. The trading instrument is tending to
+    grow.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-12-11.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-12-04.html" class="ag-fx-analytic_title-link">
+      Bitcoin Is Testing the Historical Maximum
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.12.04</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes are testing the historical maximum. The demand for cryptocurrency is still high.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-12-04.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-12-01.html" class="ag-fx-analytic_title-link">
+      The Growth of Ethereum Was Resumed
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.12.01</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The ETH/USD quotations have the potential for further growth. The demand is still high.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-12-01.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-27.html" class="ag-fx-analytic_title-link">
+      Bitcoin's Capitalization Has Exceeded $160 Billion
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.27</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The Bitcoin rally continues. The cryptocurrency has again updated the historical maximum.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-27.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-24.html" class="ag-fx-analytic_title-link">
+      Ethereum Is Testing a Historical Maximum
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.24</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The ETH/USD quotes have set a new record. Demand for the cryptocurrency remains at a very high level.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-24.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-20.html" class="ag-fx-analytic_title-link">
+      Bitcoin Has Set a New Historic High
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.20</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin has set a new record once again. The further growth of the BTC/USD quotations is not excluded.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-20.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-14.html" class="ag-fx-analytic_title-link">
+      Flag on ETH/USD. Demand for cryptocurrency remains
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.14</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Technical analysis indicates a further growth of the ETH/USD quotes.
+    The demand for cryptocurrency remains.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-14.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-10.html" class="ag-fx-analytic_title-link">
+      Bitcoin Has Collapsed. We Expect Further Correction
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.10</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    The BTC/USD quotes have collapsed sharply. The further correction is not ruled out.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-10.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-07.html" class="ag-fx-analytic_title-link">
+      Ethereum Is in a Sideways Trend
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.07</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Demand for cryptocurrencies remains at a high level. ETH/USD is being traded in a flat. We recommend opening
+    positions from the key levels.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-07.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-03.html" class="ag-fx-analytic_title-link">
+      Bitcoin Has Set a New Record
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.03</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin has again updated the historical maximum. Demand for the cryptocurrency has grown significantly.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-03.html">Read more</a>
+</article>
+
+<article class="ag-fx-analytic_item">
+  <div class="ag-fx-analytic_title">
+    <a href="cryptocurrency-market-analysis-2017-11-02.html" class="ag-fx-analytic_title-link">
+      Bitcoin Has Updated Its Historical Maximum
+    </a>&#160;–&#160;<span class="ag-fx-analytic_datetime">2017.11.02</span>
+  </div>
+  <div class="ag-fx-analytic_desc">
+    Bitcoin has set a new record. The further growth of the BTC/USD quotes is expected.
+  </div>
+  <a href="cryptocurrency-market-analysis-2017-11-02.html">Read more</a>
+</article> <!-- All the analytical materials CRYPTOCURRENCY ANALYSIS List -->
+      </div>
+      <div class="js-rules_more ag-rules_more">
+        All the analytical materials
+      </div>
+    </div>
+
+    <p class="ag-fx-analytic_text">
+      We bring you all the latest streaming pricing data in the world of cryptocurrencies.
+      Whether you are just interested in the Bitcoin price or you want to see the latest Ether volume, we have all the
+      data available at your fingertips.
+      Get daily market updates and gain access to the best reviews in the cryptocurrency sector.
+    </p>
+  </section>
+</div>
+</div>
+
+            </div>
+            
+            <div class="to-top-likes" id="side-to-top" style="display: block;">
+  <button id="side-click-to-top" class="to-top-likes_btn" style="display: none;"></button>
+  <button id="side-click-to-bottom" class="to-bottom-likes_btn stt-to-bottom" style="display: none;"></button>
+  <div class="to-top-likes_wrap likes-wrap"></div>
+</div> <!-- Side Up Down -->
+          </div>
+        </div>
+
+        <div class="ag-s_aside ag-layout_aside__right">
+          <div id="mc_embed_signup" class="ag-widget-analytics">
+  <div class="ag-w-analytics_box">
+    <h2 class="ag-w-analytics_form-title">Get Free Analytics</h2>
+    <form action="http://justforex.us14.list-manage.com/subscribe/post?u=8ead1671f1ebcdb19495b85d7&amp;id=b6c710e9f9" method="post"
+        id="mc-embedded-subscribe-form"  class="ag-w-analytics_form validate" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <div class="mc-field-group ag-w-analytics_row">
+          <label for="mce-EMAIL" class="ag-w-analytics_label">
+            Email
+            <span class="ag-w-analytics_asterisk asterisk">*</span>
+          </label>
+          <input id="mce-EMAIL" class="ag-w-analytics_input required email" type="email" value="" name="EMAIL">
+        </div>
+
+        <div class="mc-field-group input-group">
+          <ul class="ag-w-analytics_box-checkbox">
+            <li class="ag-w-analytics_row ag-w-analytics_row__checkbox">
+              <div class="ag-w-analytics_field-checkbox">
+                <input id="mce-group[1655]-1655-0" class="ag-w-analytics_checkbox" type="checkbox" value="1" name="group[1655][1]">
+                <label for="mce-group[1655]-1655-0" class="ag-w-analytics_label-checkbox">Market Overview</label>
+              </div>
+            </li>
+            <li class="ag-w-analytics_row ag-w-analytics_row__checkbox">
+              <div class="ag-w-analytics_field-checkbox">
+                <input id="mce-group[1655]-1655-1" class="ag-w-analytics_checkbox" type="checkbox" value="2" name="group[1655][2]">
+                <label for="mce-group[1655]-1655-1" class="ag-w-analytics_label-checkbox">Daily Forecasts</label>
+              </div>
+            </li>
+            <li class="ag-w-analytics_row ag-w-analytics_row__checkbox">
+              <div class="ag-w-analytics_field-checkbox">
+                <input id="mce-group[1655]-1655-2" class="ag-w-analytics_checkbox" type="checkbox" value="4" name="group[1655][4]">
+                <label for="mce-group[1655]-1655-2" class="ag-w-analytics_label-checkbox">Technical Analysis</label>
+              </div>
+            </li>
+            <li class="ag-w-analytics_row ag-w-analytics_row__checkbox fx-only_content">
+              <div class="ag-w-analytics_field-checkbox">
+                <input id="mce-group[1655]-1655-3" class="ag-w-analytics_checkbox" type="checkbox" value="8" name="group[1655][8]">
+                <label for="mce-group[1655]-1655-3" class="ag-w-analytics_label-checkbox">Cryptocurrency Analysis</label>
+              </div>
+            </li>
+            <li class="ag-w-analytics_row ag-w-analytics_row__checkbox fx-only_content">
+              <div class="ag-w-analytics_field-checkbox">
+                <input id="mce-group[1655]-1655-4" class="ag-w-analytics_checkbox" type="checkbox" value="16" name="group[1655][16]">
+                <label for="mce-group[1655]-1655-4" class="ag-w-analytics_label-checkbox">Market News</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="mce-responses" class="clear">
+          <div id="mce-error-response" class="ag-w-analytics_error-response response" style="display:none"></div>
+          <div id="mce-success-response" class="ag-w-analytics_success-response response" style="display:none"></div>
+        </div>
+
+        <div class="ag-w-analytics_indicates-required indicates-required">
+          <span class="ag-w-analytics_asterisk asterisk">*</span> required fields
+        </div>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_8ead1671f1ebcdb19495b85d7_b6c710e9f9" title="" tabindex="-1" value=""/>
+        </div>
+
+        <div class="ag-w-analytics_wrap-btn clear">
+          <input  id="mc-embedded-subscribe" class="ag-w-analytics_btn button" type="submit" value="Subscribe" name="subscribe" />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script type='text/javascript' src='../uploads/js/analytics-form-subscribe/mc-validate.js'></script>
+
+<script type='text/javascript'>
+  (function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0] = 'EMAIL';
+    ftypes[0] = 'email';
+  }(jQuery));
+  var $mcj = jQuery.noConflict(true);
+</script> <!-- Analytics Form Subscribe -->
+          
+          <div class="ag-s-recent-review-block">
+  <div class="ag-s-recent-review_title">
+    Analytics
+  </div>
+  <ul class="ag-s-recent-review_list">
+    <li class="ag-s-recent-review_item">
+      <a href="market-overview.html" class="ag-s-recent-review_link">
+        Market Overview
+      </a>
+    </li>
+    <li class="ag-s-recent-review_item">
+      <a href="daily-forecast.html" class="ag-s-recent-review_link">
+        Daily Forecast
+      </a>
+    </li>
+    <li class="ag-s-recent-review_item">
+      <a href="technical-analysis.html" class="ag-s-recent-review_link">
+        Technical Analysis
+      </a>
+    </li>
+    <li class="ag-s-recent-review_item fx-only_content">
+      <a href="market-news.html" class="ag-s-recent-review_link">
+        Market News
+      </a>
+    </li>
+  </ul>
+</div> <!-- CRYPTOCURRENCY ANALYSIS Right Column -->
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+
+<section>
+    <div id="wrapper" class="last-bg">
+    <div class="wrap">
+        <div class="last wow bounceInLeft">
+        <div class="footlogo">
+           <div class="foothead">
+            Latest News
+           </div>
+           <div style="margin-top: -7px; margin-right: 130px; margin-left: 0px; height: 3px; background-color: white;"></div>
+          <!--  <hr style="position: absolute;margin-top: -17px; margin-left: -6px; height: 5px; background-color: white;"> -->
+            <div class="cont">
+              
+
+<span>Feb-24-2019 04:32:05 PM</span> <br> <b>Mobile Money Transfers for Clients in India</b><br>
+We have introduced Mobile Money Transfers for our cherished customers in India.<br>
+<!-- <a href="index56ca.html?a=news#2">more</a> -->
+<a href="">more</a>
+
+
+<span>Oct-24-2018 07:43:36 AM</span> <br> <b>Alpha Exchange World</b><br>
+We are open to the public...<br>
+<!-- <a href="index56ca.html?a=news#1">more</a> -->
+<a href="">more</a>
+
+
+            </div>
+          </div>  
+          
+          <div class="help">
+            <div class="word">Related Links</div>
+            <div style="margin-top: 4px; margin-right: -130px; margin-left: 0px; height: 3px; background-color: white;"></div>
+            <div class="word1">
+               <ul>
+                 <!-- <li><a href="indexbc14.html?a=home"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li>
+                 <!-- <li><a href="index1fa7.html?a=cust&amp;page=aboutus"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;About Us</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;About Us</a></li>
+                 <!-- <li><a href="index56ca.html?a=news"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Company News</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Company News</a></li>
+                 </ul>
+              </div>
+          </div>
+          
+          <div class="help">
+              <div class="word"><br></div>
+                  <div class="word1">
+                    <ul>
+                      <!--<li><a href="?a=cust&page=rateus"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Ratings</a></li>-->
+                      <!-- <li><a href="index38cd.html?a=faq"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;FAQ</a></li> -->
+                      <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;FAQ</a></li>
+                      <!-- <li><a href="indexceca.html?a=cust&amp;page=banner"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Banners</a></li> -->
+                      <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Banners</a></li>
+                     </ul>
+                   </div>
+             </div>
+             
+             <div class="contact" id="contact">
+                 <div class="pop">Security</div>
+                <div style="margin-top: 4px; margin-left: 0px; height: 3px; background-color: white;"></div>
+                    <div class="doto">
+                      <img style="margin-left:-10px;" src="images/foot-payment.png" alt="foot-payment">
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             
+             <div class="clear"></div>
+                 <!-- <div class="last-menu">
+                    <ul>
+                        <li><a href="">Terms & Conditions </a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href=""> Earning Disclaimer</a></li>
+                    </ul>
+                 </div> -->
+        </div>
+</section>
+<!-- end footer-area -->
+<!--================================
+       END FOOTER AREA
+=================================-->
+
+<!-- start scroll top --->
+<div id="scroll-top" style="display: none;">
+    <i class="fas fa-arrow-up" title="Go top"></i>
+</div>
+<!-- end scroll top -->
+
+<script src="assetsh/jquery.min.js"></script>
+<script src="assetsh/bootstrap.min.js"></script>
+<script src="assetsh/owl.carousel.min.js"></script>
+<script src="assetsh/magnificpopup.js"></script>
+<script src="assetsh/js"></script>
+<script src="assetsh/gmaps.js"></script>
+<script src="assetsh/main.js"></script>
+
+
+ <!-- Slider Revolution core JavaScript files -->
+<script src="assetsh/jquery.themepunch.revolution.min.js"></script>
+<script src="assetsh/jquery.themepunch.tools.min.js"></script>
+<script src="assetsh/revolution.extension.actions.min.js"></script>
+<script src="assetsh/revolution.extension.carousel.min.js"></script>
+<script src="assetsh/revolution.extension.kenburn.min.js"></script>
+<script src="assetsh/revolution.extension.layeranimation.min.js"></script>
+<script src="assetsh/revolution.extension.migration.min.js"></script>
+<script src="assetsh/revolution.extension.navigation.min.js"></script>
+<script src="assetsh/revolution.extension.parallax.min.js"></script>
+<script src="assetsh/revolution.extension.slideanims.min.js"></script>
+<script src="assetsh/revolution.extension.video.min.js"></script>
+<script src="assetsh/rev-slider-script.js"></script>
+<script>
+
+    //magnificpopup video
+    (function($){
+        $(document).ready(function() {
+            $('.video-play-btn').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+    })(jQuery)
+
+    // google map control
+    var map;
+    $(document).ready(function(){
+        map = new GMaps({
+            el: '#map',
+            center: new google.maps.LatLng(40.6978202, -74.0907647),
+            zoom: 13,
+            scrollWheel: false,
+            styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+
+        });
+    });
+
+</script>
+
+</body></html>

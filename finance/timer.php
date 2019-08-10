@@ -1,0 +1,1 @@
+<?php  date_default_timezone_set("Europe/Belgrade"); echo date('d F Y - H:i'); ?> 

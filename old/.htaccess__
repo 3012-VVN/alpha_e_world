@@ -1,0 +1,79 @@
+Options -Indexes
+
+RewriteEngine On
+#RewriteCond %{HTTPS} off [OR]
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+#RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+
+
+#User Login
+RewriteRule ^Login/?$ /finance/login.php [NC,L]
+RewriteRule ^Dashboard/?$ /finance/index.php [NC,L]
+RewriteRule ^VerifyUser/?$ /finance/verifyuser.php [NC,L]
+RewriteRule ^VerifyOTP/?$ /finance/verifyotp.php [NC,L]
+RewriteRule ^VerifyPassword/?$ /finance/verifypassword.php [NC,L] 
+RewriteRule ^ForgotPassword/?$ /finance/forgotpassword.php [NC,L]
+
+RewriteRule ^GetPlan/?$ /finance/getplan.php [NC,L]
+RewriteRule ^GetPlan1/?$ /finance/getplan1.php [NC,L]
+
+RewriteRule ^ResetPlan/?$ /finance/resetplan.php [NC,L]
+RewriteRule ^ResetPlan1/?$ /finance/resetplan1.php [NC,L]
+
+RewriteRule ^SubmitPaymentDetail/?$ /finance/submitpaymentdetails.php [NC,L]
+RewriteRule ^SubmitPaymentDetail1/?$ /finance/submitpaymentdetails1.php [NC,L]
+
+RewriteRule ^GenerationSch/?$ /finance/payoutplan.php [NC,L]
+
+RewriteRule ^UserInfo/?$ /finance/user.php [NC,L]
+RewriteRule ^UserDetails/?$ /finance/user1.php [NC,L]
+RewriteRule ^UserInfoUpdate/?$ /finance/updateprofile.php [NC,L]
+RewriteRule ^UserAccountUpdate/?$ /finance/updateaccount.php [NC,L]
+
+RewriteRule ^InviteUser/?$ /finance/inviteuser.php [NC,L]
+RewriteRule ^InviteNewUser/?$ /finance/invitenewuser.php [NC,L]
+RewriteRule ^Registration/?$ /finance/registration.php [NC,L]
+
+RewriteRule ^Logout/?$ /finance/logout.php [NC,L]
+
+RewriteRule ^UniqueUser/?$ /finance/uniqueuser.php [NC,L]
+
+RewriteRule ^ResetPassword/?$ /finance/resetpassword.php [NC,L]
+
+RewriteRule ^AdminUserList/?$ /finance/adminuserlist.php [NC,L]
+RewriteRule ^AdminTopUpList/?$ /finance/adminuserlist1.php [NC,L]
+RewriteRule ^ActUser/?$ /finance/activateuser.php [NC,L]
+RewriteRule ^ApproveTopUp/?$ /finance/activateuser1.php [NC,L]
+
+RewriteRule ^GetSubmittedData/?$ /finance/getdocumentdata.php [NC,L]
+RewriteRule ^GetSubmittedData1/?$ /finance/getdocumentdata1.php [NC,L]
+
+RewriteRule ^AdminUserAccountApp/?$ /finance/appchangesdata.php [NC,L]
+RewriteRule ^AdminSupport/?$ /finance/adminsupport.php [NC,L]
+
+RewriteRule ^UpadteAccount/?$ /finance/approvedchangesdata.php [NC,L]
+
+RewriteRule ^GetChangeData/?$ /finance/getchangesdata.php [NC,L]
+
+RewriteRule ^Support/?$ /finance/support.php [NC,L]
+
+RewriteRule ^SubmitQuery/?$ /finance/submitsupport.php [NC,L]
+RewriteRule ^TermsCondition/?$ /termsnconditions.php [NC,L]
+
+RewriteRule ^Generation/?$ /finance/admingeneration.php [NC,L]
+
+RewriteRule ^Timer/?$ /finance/timer.php [NC,L]
+
+RewriteRule ^TradeBuddies/?$ /finance/TradeBuddies.php [NC,L]
+
+RewriteRule ^PaidUser/?$ /finance/PaidUser1.php [NC,L]
+
+RewriteRule ^GetLevelDetail/?$ /finance/GetLevelDetail.php [NC,L]
+
+RewriteRule ^GetDoc/?$ /finance/Getdoc.php [NC,L]
+RewriteRule ^GetDoc1/?$ /finance/Getdoc1.php [NC,L]
+RewriteRule ^GetDoc2/?$ /finance/Getdoc3.php [NC,L]
+
+
+RewriteRule ^TopUp/?$ /finance/TopUp.php [NC,L]

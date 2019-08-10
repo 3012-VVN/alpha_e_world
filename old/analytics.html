@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style type="text/css">.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="assetsh/css"><style type="text/css">.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+<style>  .ag-analytics-info-block {
+    float: left;
+    margin: 0 0 25px;
+
+    overflow: hidden;
+  }
+  .ag-locale-site-pk .ag-analytics-info-block {
+    float: right;
+  }
+  .ag-analytics-info_inner {
+    float: left;
+    background: url(uploads/parent-categories/analytics-1.jpg) no-repeat scroll right 0 #3B3F4B;
+    background-size: 50% auto;
+
+    position: relative;
+    right: 50%;
+  }
+  .ag-locale-site-pk .ag-analytics-info_inner {
+    float: right;
+    background-position: 0 0;
+
+    right: auto;
+    left: 50%;
+  }
+  .ag-analytics-info_sidebar {
+    float: left;
+    width: 50%;
+    margin: 0 2% 0 0;
+
+    position: relative;
+    left: 50%;
+  }
+  .ag-locale-site-pk .ag-analytics-info_sidebar {
+    float: right;
+    margin: 0 0 0 2%;
+
+    left: auto;
+    right: 50%;
+  }
+  .ag-analytics-cat_content {
+    float: left;
+    width: 48%;
+
+    position: relative;
+    left: 50%;
+  }
+  .ag-locale-site-pk .ag-analytics-cat_content {
+    float: right;
+
+    left: auto;
+    right: 50%;
+  }
+
+  .ag-analytics-info_box {
+    padding: 0 15px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ag-analytics-info_desc {
+    padding: 210px 0 0;
+
+    color: #FFF;
+  }
+  .ag-locale-site-ru .ag-analytics-info_desc {
+    padding: 195px 0 0;
+  }
+  .ag-locale-site-th .ag-analytics-info_desc {
+    padding: 200px 0 0;
+  }
+
+  .ag-analytics-info_title {
+    padding: 0 0 5px;
+
+    font-size: 34px;
+  }
+  .ag-analytics-info_text {
+    line-height: 1.45;
+    padding: 0 0 15px;
+  }
+  .ag-locale-site-cn .ag-analytics-info_text,
+  .ag-locale-site-jp .ag-analytics-info_text,
+  .ag-locale-site-ko .ag-analytics-info_text,
+  .ag-locale-site-th .ag-analytics-info_text {
+    line-height: 1.8;
+  }
+
+  .ag-analytics-cat_list {
+    display: table;
+  }
+
+  .ag-analytics-cat_list-v2 {
+    display: table;
+    margin: 25px 0 0;
+  }
+
+  .ag-analytics-cat_item,
+  .ag-analytics-cat_item-v2 {
+    border-left: 1px solid #dcdcdc;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ag-locale-site-pk .ag-analytics-cat_item,
+  .ag-locale-site-pk .ag-analytics-cat_item-v2 {
+    border-left: 0;
+    border-right: 1px solid #dcdcdc;
+  }
+  .ag-analytics-cat_item {
+    min-height: 100px;
+    padding: 5px 15px;
+    margin-bottom: 25px;
+  }
+  .ag-analytics-cat_item:last-child {
+    margin-bottom: 0;
+  }
+  .ag-analytics-cat_item-v2 {
+    display: table-cell;
+    width: 26%;
+    padding: 10px 25px 10px 15px;
+  }
+  .ag-locale-site-pk .ag-analytics-cat_item-v2 {
+    padding: 10px 15px 10px 25px;
+  }
+  .fx-only .ag-analytics-cat_item-v2 {
+    width: 52%;
+  }
+  .ag-analytics-cat_item-v2:last-child,
+  .ag-locale-site-pk .ag-analytics-cat_item-v2:last-child {
+    width: auto;
+    margin: 0;
+  }
+  .ag-analytics-cat_title,
+  .ag-analytics-cat_title-v2 {
+    padding: 0 0 5px;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: #0192ff;
+  }
+  .ag-locale-site-cn .ag-analytics-cat_title,
+  .ag-locale-site-cn .ag-analytics-cat_title-v2,
+  .ag-locale-site-jp .ag-analytics-cat_title,
+  .ag-locale-site-jp .ag-analytics-cat_title-v2,
+  .ag-locale-site-ko .ag-analytics-cat_title,
+  .ag-locale-site-ko .ag-analytics-cat_title-v2,
+  .ag-locale-site-th .ag-analytics-cat_title,
+  .ag-locale-site-th .ag-analytics-cat_title-v2 {
+    line-height: 1.45;
+  }
+  .ag-analytics-cat_text,
+  .ag-analytics-cat_text-v2 {
+    line-height: 1.45;
+  }
+  .ag-locale-site-cn .ag-analytics-cat_text,
+  .ag-locale-site-jp .ag-analytics-cat_text,
+  .ag-locale-site-ko .ag-analytics-cat_text,
+  .ag-locale-site-th .ag-analytics-cat_text,
+  .ag-locale-site-cn .ag-analytics-cat_text-v2,
+  .ag-locale-site-jp .ag-analytics-cat_text-v2,
+  .ag-locale-site-ko .ag-analytics-cat_text-v2,
+  .ag-locale-site-th .ag-analytics-cat_text-v2 {
+    line-height: 1.8;
+  }
+
+  @media only screen and (max-width: 979px) {
+    .ag-analytics-info-block,
+    .ag-locale-site-pk .ag-analytics-info-block {
+      float: none;
+      margin: 0 0 25px;
+
+      overflow: visible;
+    }
+    .ag-analytics-info_inner,
+    .ag-locale-site-pk .ag-analytics-info_inner {
+      float: none;
+
+      background: none;
+
+      left: auto;
+      right: auto;
+    }
+    .ag-analytics-info_sidebar,
+    .ag-locale-site-pk .ag-analytics-info_sidebar {
+      float: none;
+      width: auto;
+      margin: 0;
+
+      left: auto;
+      right: auto;
+    }
+    .ag-analytics-cat_content,
+    .ag-locale-site-pk .ag-analytics-cat_content {
+      float: none;
+      width: auto;
+
+      left: auto;
+      right: auto;
+    }
+    .ag-analytics-info_box {
+      background: url(uploads/parent-categories/analytics-1.jpg) no-repeat scroll 0 0 #3B3F4B;
+      background-size: 100% auto;
+    }
+    .ag-analytics-info_desc,
+    .ag-locale-site-fr .ag-analytics-info_desc,
+    .ag-locale-site-ko .ag-analytics-info_desc,
+    .ag-locale-site-ms .ag-analytics-info_desc,
+    .ag-locale-site-th .ag-analytics-info_desc {
+      padding: 40% 0 0;
+    }
+
+    .ag-analytics-cat_item {
+      min-height: 80px;
+    }
+
+    .ag-analytics-cat_list,
+    .ag-analytics-cat_list-v2 {
+      display: block;
+      margin: 25px 0 0;
+    }
+    .ag-analytics-cat_item,
+    .ag-analytics-cat_item-v2,
+    .ag-locale-site-pk .ag-analytics-cat_item-v2,
+    .ag-analytics-cat_item-v2 {
+      display: block;
+      height: auto;
+      width: auto;
+      margin: 0 0 25px;
+      padding: 10px 15px;
+    }
+    .ag-analytics-cat_item-v2:last-child,
+    .ag-locale-site-pk .ag-analytics-cat_item-v2:last-child {
+      margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+  }
+
+  @media only screen and (max-width: 479px) {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 979px) {
+
+  }
+
+  @media (min-width: 980px) and (max-width: 1161px) {
+    .ag-analytics-info_inner {
+      background-size: 60% auto;
+    }
+
+    .ag-analytics-cat_item {
+      min-height: 105px;
+    }
+    .ag-locale-site-th .ag-analytics-cat_item {
+      min-height: 130px;
+    }
+    .ag-locale-site-cn .ag-analytics-info_desc,
+    .ag-locale-site-ko .ag-analytics-info_desc {
+      padding: 240px 0 0;
+    }
+    .ag-locale-site-pk .ag-analytics-info_desc {
+      padding: 230px 0 0;
+    }
+    .ag-locale-site-ru .ag-analytics-info_desc {
+      padding: 210px 0 0;
+    }
+    .ag-locale-site-th .ag-analytics-info_desc {
+      padding: 255px 0 0;
+    }
+  }</style>
+    
+    <!-- viewport meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Avivon - Business Consulting &amp; Finance HTML5 Template">
+    <meta name="keywords" content=" advisor, business, consultant, consulting, corporate,  finance, financial, law firm, institutions, organizations , html5">
+    <title>Alpha Exchange World</title>
+
+
+
+    <!-- revolution slider css -->
+    <link rel="stylesheet" type="text/css" href="assetsh/settings.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/layers.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/navigation.css">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" type="text/css" href="assetsh/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/fontello.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/magnificpopup.css">
+    <link rel="stylesheet" type="text/css" href="assetsh/style.css">
+    <!-- endinject -->
+<script type="text/javascript" charset="UTF-8" src="assetsh/common.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/util.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/map.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="assetsh/onion.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/stats.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/controls.js"></script><script type="text/javascript" charset="UTF-8" src="assetsh/marker.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/3eda1462582fcc53eefc9f2d43830b29/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/3eda1462582fcc53eefc9f2d43830b29/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/3eda1462582fcc53eefc9f2d43830b29/favicon-16x16.png">
+  <link rel="manifest" href="/3eda1462582fcc53eefc9f2d43830b29/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    
+    </head>
+<body>
+<!-- page preloader -->
+<div id="loading-area" style="display: none;">
+    <div class="three col">
+        <div class="loader" id="loader-1"></div>
+    </div>
+</div><!-- end loading -->
+
+
+<div class="body-overlay"></div><!-- end body-overlay -->
+<div class="offcanvas-menu">
+    <div class="menu__close"></div><!-- end menu__close -->
+    <ul class="off__menu">
+        <li class="menu__title-only">home <i class="fas fa-angle-down"></i></li>
+        <li><a href="/index.html">home 01</a></li>
+        <li><a href="/index2.html">home 02</a></li>
+        <li><a href="/index3.html">home 03</a></li>
+        <li class="menu__title-only">services <i class="fas fa-angle-down"></i></li>
+        <li><a href="/service1.html">services 01</a></li>
+        <li><a href="/service2.html">services 02</a></li>
+        <li><a href="/single-service.html">single service</a></li>
+        <li class="menu__title-only">pages <i class="fas fa-angle-down"></i></li>
+        <li><a href="/about-us1.html">about us 01</a></li>
+        <li><a href="/about-us2.html">about us 02</a></li>
+        <li><a href="/our-mission.html">our mission</a></li>
+        <li><a href="/our-history.html">our history</a></li>
+        <li><a href="/our-partnership.html">partnership</a></li>
+        <li><a href="/error-page-404.html">error 404 page</a></li>
+        <li class="menu__title-only">cases <i class="fas fa-angle-down"></i></li>
+        <li><a href="/cases1.html">cases 01</a></li>
+        <li><a href="/cases2.html">cases 02</a></li>
+        <li><a href="/single-cases.html">single case</a></li>
+        <li class="menu__title-only">blog <i class="fas fa-angle-down"></i></li>
+        <li><a href="/blog-post.html">blog post</a></li>
+        <li><a href="/single-blog.html">single blog</a></li>
+        <li class="menu__title-only">contact <i class="fas fa-angle-down"></i></li>
+        <li><a href="/contact.html">contact us</a></li>
+    </ul>
+</div><!-- end offcanvas-menu -->
+
+<!-- ================================
+        START MENU AREA
+================================= -->
+<section class="menu-area">
+    <div class="top-menu-area" style="background-color: black; opacity: 0.8 !important;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menu-full-width">
+                        <div class="logo-box">
+                            <div class="site-open">
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                                <span class="open__only"></span>
+                            </div><!-- end site-open -->
+                            <div class="logo">
+                                <a href="/index.html" title="Avivon" style="color: white; font-weight: bold;font-size: 23px;"><img src="assetsh/logoalpha.png" width="80" alt="logo"><span>Alpha Exchange World</span></a>
+                            </div><!-- end logo -->
+                        </div><!-- end logo-box -->
+                        <div class="main-menu">
+                            <nav class="menu__wrapper">
+                                <ul class="dropdown-main">
+                                    <li>
+                                        <a href="">Analytics</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="analytics.html">home 01</a></li>
+                                                <li><a href="market-news.html">home 02</a></li>
+                                                <li><a href="cryptocurrency-market-analysis.html">home 03</a></li>
+                                                <li><a href="economic-calendar.html">home 04</a></li>
+                                                <li><a href=" ">home 05</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">services</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="">services 01</a></li>
+                                                <li><a href="">services 02</a></li>
+                                                <li><a href="">single service</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">pages</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/about-us1.html">about us 01</a></li>
+                                                <li><a href="/about-us2.html">about us 02</a></li>
+                                                <li><a href="/our-mission.html">our mission</a></li>
+                                                <li><a href="/our-history.html">our history</a></li>
+                                                <li><a href="/our-partnership.html">partnership</a></li>
+                                                <li><a href="/error-page-404.html">error 404 page</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">cases</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/cases1.html">cases 01</a></li>
+                                                <li><a href="/cases2.html">cases 02</a></li>
+                                                <li><a href="/single-cases.html">single case</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/#">blog</a>
+                                        <div class="main__dropdown-menu">
+                                            <ul>
+                                                <li><a href="/blog-post.html">blog post</a></li>
+                                                <li><a href="/single-blog.html">single blog</a></li>
+                                            </ul>
+                                        </div><!-- end main__dropdown-menu -->
+                                    </li>
+                                    <li>
+                                        <a href="/contact.html">contact</a>
+                                    </li>
+                                </ul>
+                            </nav><!-- end menu__wrapper -->
+                            <div class="logo-right-button">
+                                <div class="contact-para">
+                                    <p>+ 888 999 0000</p>
+                                    <span class="fontello icon-phone-call phone-call"></span>
+                                </div><!-- end contact-para -->
+                            </div><!-- end logo-right-button -->
+                        </div><!-- end main-menu -->
+                    </div><!-- end menu-full-width -->
+                </div><!-- end col-md-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end top-menu-area -->
+</section><!-- end menu-area -->
+
+
+<section class="container" style="margin-top: 150px; margin-bottom: 50px;">
+  <div class="ag-layout_content">
+      <div class="ag-base_page ag-m-format-container clearfix">
+        <h1 class="ag-base_title-page">Exclusive Forex Analytics
+</h1>
+        <div class="ag-site_direction__RTL">
+          <div class="static-page">
+  <div class="ag-analytics-page">
+  <div class="ag-analytics-info-block">
+    <div class="ag-analytics-info_inner">
+      <div class="ag-analytics-info_sidebar">
+        <div class="ag-analytics-info_box">
+          <div class="ag-analytics-info_desc">
+            <h2 class="ag-analytics-info_title">
+              Analytics
+            </h2>
+            <p class="ag-analytics-info_text">
+              Keep up with the Forex market trends. Fundamental and technical analysis, forecasts for various financial
+              instruments, economic calendar, interest rates, trading sessions and much more!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="ag-analytics-cat_content">
+        <div class="ag-analytics-cat_box">
+          <ul class="ag-analytics-cat_list">
+            <li class="ag-analytics-cat_item">
+              <div class="ag-analytics-cat_desc">
+                <h3 class="ag-analytics-cat_title">
+                  <a href="analytics/market-overview.html">
+                    Market Overview
+                  </a>
+                </h3>
+                <p class="ag-analytics-cat_text">
+                  Daily overview of the Forex market and key events, quotes and indices.
+                </p>
+              </div>
+            </li>
+            <li class="ag-analytics-cat_item">
+              <div class="ag-analytics-cat_desc">
+                <h3 class="ag-analytics-cat_title">
+                  <a href="analytics/daily-forecast.html">
+                    Daily Forecast
+                  </a>
+                </h3>
+                <p class="ag-analytics-cat_text">
+                  Daily forecast and technical analysis for major currency pairs.
+                </p>
+              </div>
+            </li>
+            <li class="ag-analytics-cat_item">
+              <div class="ag-analytics-cat_desc">
+                <h3 class="ag-analytics-cat_title">
+                  <a href="analytics/technical-analysis.html">
+                    Technical Analysis
+                  </a>
+                </h3>
+                <p class="ag-analytics-cat_text">
+                  Chart patterns and forecasts on the basic trading instruments.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="ag-analytics-cat_list-v2">
+    <li class="ag-analytics-cat_item-v2 fx-only_content">
+      <div class="ag-analytics-cat_desc-v2">
+        <h3 class="ag-analytics-cat_title-v2">
+          <a href="analytics/cryptocurrency-market-analysis.html">
+            Cryptocurrency Analysis
+          </a>
+        </h3>
+        <p class="ag-analytics-cat_text-v2">
+          Read the latest Cryptocurrency analysis.
+          We deliver weekly cryptocurrency analysis that will help you in trading.
+        </p>
+      </div>
+    </li>
+    <li class="ag-analytics-cat_item-v2">
+      <div class="ag-analytics-cat_desc-v2">
+        <h3 class="ag-analytics-cat_title-v2">
+          <a href="analytics/market-news.html">
+            Market News
+          </a>
+        </h3>
+        <p class="ag-analytics-cat_text-v2">
+          Be aware of the latest news on the Forex market<span class="fx-only_content"> and the crypto market</span>.
+        </p>
+      </div>
+    </li>
+    <li class="ag-analytics-cat_item-v2">
+      <div class="ag-analytics-cat_desc-v2">
+        <h3 class="ag-analytics-cat_title-v2">
+          <a href="analytics/economic-calendar.html">
+            Economic Calendar
+          </a>
+        </h3>
+        <p class="ag-analytics-cat_text-v2">
+          A convenient interactive online calendar of major economic events that affect the currency market.
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section>
+    <div id="wrapper" class="last-bg">
+    <div class="wrap">
+        <div class="last wow bounceInLeft">
+        <div class="footlogo">
+           <div class="foothead">
+            Latest News
+           </div>
+           <div style="margin-top: -7px; margin-right: 130px; margin-left: 0px; height: 3px; background-color: white;"></div>
+          <!--  <hr style="position: absolute;margin-top: -17px; margin-left: -6px; height: 5px; background-color: white;"> -->
+            <div class="cont">
+              
+
+<span>Feb-24-2019 04:32:05 PM</span> <br> <b>Mobile Money Transfers for Clients in India</b><br>
+We have introduced Mobile Money Transfers for our cherished customers in India.<br>
+<!-- <a href="index56ca.html?a=news#2">more</a> -->
+<a href="">more</a>
+
+
+<span>Oct-24-2018 07:43:36 AM</span> <br> <b>Alpha Exchange World</b><br>
+We are open to the public...<br>
+<!-- <a href="index56ca.html?a=news#1">more</a> -->
+<a href="">more</a>
+
+
+            </div>
+          </div>  
+          
+          <div class="help">
+            <div class="word">Related Links</div>
+            <div style="margin-top: 4px; margin-right: -130px; margin-left: 0px; height: 3px; background-color: white;"></div>
+            <div class="word1">
+               <ul>
+                 <!-- <li><a href="indexbc14.html?a=home"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Home</a></li>
+                 <!-- <li><a href="index1fa7.html?a=cust&amp;page=aboutus"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;About Us</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;About Us</a></li>
+                 <!-- <li><a href="index56ca.html?a=news"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Company News</a></li> -->
+                 <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Company News</a></li>
+                 </ul>
+              </div>
+          </div>
+          
+          <div class="help">
+              <div class="word"><br></div>
+                  <div class="word1">
+                    <ul>
+                      <!--<li><a href="?a=cust&page=rateus"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Ratings</a></li>-->
+                      <!-- <li><a href="index38cd.html?a=faq"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;FAQ</a></li> -->
+                      <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;FAQ</a></li>
+                      <!-- <li><a href="indexceca.html?a=cust&amp;page=banner"><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Banners</a></li> -->
+                      <li><a href=""><i class="fa fa-square" aria-hidden="true"></i>&nbsp;&nbsp;Banners</a></li>
+                     </ul>
+                   </div>
+             </div>
+             
+             <div class="contact" id="contact">
+                 <div class="pop">Security</div>
+                <div style="margin-top: 4px; margin-left: 0px; height: 3px; background-color: white;"></div>
+                    <div class="doto">
+                      <img style="margin-left:-10px;" src="images/foot-payment.png" alt="foot-payment">
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             
+             <div class="clear"></div>
+                 <!-- <div class="last-menu">
+                    <ul>
+                        <li><a href="">Terms & Conditions </a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href=""> Earning Disclaimer</a></li>
+                    </ul>
+                 </div> -->
+        </div>
+</section>
+<!-- end footer-area -->
+<!--================================
+       END FOOTER AREA
+=================================-->
+
+<!-- start scroll top --->
+<div id="scroll-top" style="display: none;">
+    <i class="fas fa-arrow-up" title="Go top"></i>
+</div>
+<!-- end scroll top -->
+
+<script src="assetsh/jquery.min.js"></script>
+<script src="assetsh/bootstrap.min.js"></script>
+<script src="assetsh/owl.carousel.min.js"></script>
+<script src="assetsh/magnificpopup.js"></script>
+<script src="assetsh/js"></script>
+<script src="assetsh/gmaps.js"></script>
+<script src="assetsh/main.js"></script>
+
+
+ <!-- Slider Revolution core JavaScript files -->
+<script src="assetsh/jquery.themepunch.revolution.min.js"></script>
+<script src="assetsh/jquery.themepunch.tools.min.js"></script>
+<script src="assetsh/revolution.extension.actions.min.js"></script>
+<script src="assetsh/revolution.extension.carousel.min.js"></script>
+<script src="assetsh/revolution.extension.kenburn.min.js"></script>
+<script src="assetsh/revolution.extension.layeranimation.min.js"></script>
+<script src="assetsh/revolution.extension.migration.min.js"></script>
+<script src="assetsh/revolution.extension.navigation.min.js"></script>
+<script src="assetsh/revolution.extension.parallax.min.js"></script>
+<script src="assetsh/revolution.extension.slideanims.min.js"></script>
+<script src="assetsh/revolution.extension.video.min.js"></script>
+<script src="assetsh/rev-slider-script.js"></script>
+<script>
+
+    //magnificpopup video
+    (function($){
+        $(document).ready(function() {
+            $('.video-play-btn').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+    })(jQuery)
+
+    // google map control
+    var map;
+    $(document).ready(function(){
+        map = new GMaps({
+            el: '#map',
+            center: new google.maps.LatLng(40.6978202, -74.0907647),
+            zoom: 13,
+            scrollWheel: false,
+            styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+
+        });
+    });
+
+</script>
+
+</body></html>

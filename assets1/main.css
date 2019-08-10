@@ -1,0 +1,89 @@
+#btSettingsPanel {
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 100px;
+	width: 350px;
+    background-color: rgba(0,0,0,.9);
+	transform: translateX(-350px);
+	transition: transform ease-in 300ms;
+	&.btSettingsPanelOpen {
+		transform: translateX(0px);
+		box-shadow: 0 0 20px 0 rgba(0,0,0,.6);	
+		#btSettingsPanelToggler:before {
+			transform: translateX(-4em);
+			color: white;
+			background-color: transparent;
+			box-shadow: none;
+		}
+	}
+	#btSettingsPanelContent {
+		padding: 1.5em;
+		.fancy-select .option {
+			color: $(darkFontColor);
+			background-color: $(darkBgColor);
+		}
+	}
+	#btSettingsPanelToggler {
+		cursor: pointer;
+		position: absolute;
+		right: -3em;
+		top: 1em;
+		width: 2em;
+		&:before {
+			display: block;
+			height: 2em;
+			line-height: 2em;
+			background-color: #eee;
+			box-shadow: 0 0 20px 0 rgba(0,0,0,.6);
+			background-color: rgba(0,0,0,.9);
+			font-family: FontAwesome;
+			content: "\f013";
+			color: $(accentColor);
+			text-align: center;
+			cursor: pointer;
+			transform: translateX(0px);
+			transition: all ease-out 150ms;
+		}
+	}
+	
+	h4 {
+		font-weight: 700;
+		background-color: $(accentColor);
+		padding: 1.5em;
+		margin-bottom: 0.5em;
+		line-height: 1em;
+	}
+	h6 {
+		margin-bottom: 0.5em;
+	}
+	.btSettingsPanelRow {
+		padding: 0 0 1em;
+		h6 {
+			font-weight: 400;
+		}
+		&.btAccentColorRow {
+			width: 50%;
+			float: left;
+			padding-right: 0.5em;
+			.trigger, select {
+				border-color: $(accentColor);
+			}	
+		}
+		&.btAlternateColorRow {
+			width: 50%;
+			float: left;
+			padding-left: 0.5em;
+			.trigger, select {
+				border-color: $(alternateColor);
+			}	
+			
+		}
+	}	
+}
+
+@media (max-width: $(baseTemplateWidth)px) { 
+	.btSettingsMenuWidth, .btSettingsPageWidth {
+		display: none;
+	}
+}

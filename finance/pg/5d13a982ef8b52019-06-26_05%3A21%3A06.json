@@ -1,0 +1,1 @@
+"Array\n(\n    [action] => SALE\n    [result] => DECLINED\n    [status] => DECLINED\n    [order_id] => 47\n    [trans_id] => 26156-96611-49962\n    [trans_date] => 2019-06-26 17:21:01\n    [decline_reason] => Transaction cannot be processed. Please contact your bank for more details\n    [hash] => cc55586047b87699cbe6d3210c999998\n)\n"
